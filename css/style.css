@@ -168,6 +168,14 @@ blockquote {
 	font-weight: 400;
 }
 
+h3{
+	font-family: Avenir, sans-serif;
+	font-weight: 400;
+}
+
+h3 em{
+	color: #D78F16;
+}
 
 .subfooter {
 	background-color: #101E22;
@@ -184,11 +192,11 @@ blockquote {
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-	background-color: #222222;
+	background-color: #101E22;
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #333;
+	background-color: #101E22;
 }
 .translucent-bg {
 	color: #ffffff;
