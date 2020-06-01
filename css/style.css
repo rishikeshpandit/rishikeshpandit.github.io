@@ -63,6 +63,10 @@ h3 span,
 h4 span {
 	color: #D78F16;
 }
+strong{
+	font-weight: bolder;
+}
+
 .text-colored {
 	color: #55acee;
 }
@@ -117,7 +121,7 @@ blockquote {
 .header {
 	color: #ffffff;
 	/*background: #20323B;*/
-	background-color: rgba(0, 0, 0, 0.10);
+	background-color: rgba(0, 0, 0, 0.40);  /* Default alpha 0.10 */
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -166,7 +170,7 @@ blockquote {
 
 
 .subfooter {
-	background-color: #222;
+	background-color: #101E22;
 	color: #f4f4f4;
 	border-top: 1px solid #f3f3f3;
 	border-bottom: 1px solid #f3f3f3;
@@ -248,7 +252,7 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
+	background: url("../images/background.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
@@ -331,8 +335,8 @@ blockquote {
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #000; /* 339bEb default */
-	border-color: #ccc; /* 339bEb default */
+	background-color: #101E22; /* 339bEb default */
+	border-color: #222; /* 339bEb default */
 }
 
 /* Collapse
@@ -370,7 +374,7 @@ blockquote {
 }
 .panel-heading a.collapsed {
 	color: #ffffff;
-	background-color: #333333;
+	background-color: #101E22;
 }
 .panel-heading a:after {
 	font-family: "FontAwesome";
@@ -388,7 +392,7 @@ blockquote {
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #000; /*55acee default*/
+	background-color: #333; /*55acee default*/
 	color: #ffffff;
 }
 .panel-title a i {
@@ -527,7 +531,8 @@ textarea {
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
-	background-color: rgba(0, 0, 0, 0.95);
+	background-color: #101E22;
+	/*background-color: rgba(0, 0, 0, 0.95);*/
 	padding: 5px 0;
 }
 .fixed-header-on .site-name {
@@ -613,6 +618,28 @@ textarea {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
+
+.social-links li.iconFB a:hover {
+    color: #4267B2;
+}
+
+.social-links li.iconTW a:hover {
+    color: #1da1f2;
+}
+
+.social-links li.iconIN a:hover {
+    color: #fb3958;
+}
+
+.social-links li.iconGH a:hover {
+    color: #000;
+}
+
+.social-links li.iconLN a:hover {
+    color: #2867B2;
+}
+
+/*
 .social-links li.twitter a:hover {
 	color: #55acee;
 }
@@ -636,7 +663,7 @@ textarea {
 }
 .social-links li.pinterest a:hover {
 	color: #cb2027;
-}
+}*/
 
 /* Isotope Items
 ---------------------------------- */
