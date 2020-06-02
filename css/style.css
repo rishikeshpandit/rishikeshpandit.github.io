@@ -503,13 +503,13 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #B1E5E9;
+	color: #fff;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
 	/*border: 1px #ccc solid;*/
 	color: #FFF4C6;
-	text-decoration: underline 2px red solid;
+/*	text-decoration: underline 2px red solid;*/
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
